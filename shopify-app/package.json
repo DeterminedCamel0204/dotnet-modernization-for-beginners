@@ -1,0 +1,17 @@
+{
+    "name": "shopify-app-starter",
+    "version": "1.0.0",
+    "private": true,
+    "description": "Shopify app starter with OAuth-ready routes for a local development setup",
+    "main": "server.js",
+    "scripts": {
+        "dev": "node --watch server.js",
+        "start": "node server.js"
+    },
+    "dependencies": {
+        "@shopify/shopify-api": "^11.0.0",
+        "@shopify/shopify-app-express": "^6.0.0",
+        "dotenv": "^16.4.5",
+        "express": "^4.21.2"
+    }
+}
